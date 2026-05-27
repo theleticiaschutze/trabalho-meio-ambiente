@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EcoCycle - Economia Circular</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
@@ -17,10 +16,7 @@
             <a class="navbar-brand">
                 🌎 EcoVida
             </a>
-            <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
@@ -144,19 +140,44 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>emoji oleo</h3>
+                    <h5>Óleo usado</h5>
+                    <p>
+                        textin
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>sofazinho aqui</h3>
+                    <h5>Móveis</h5>
+                    <p>
+                        textin
+                    </p>
+                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>carrinho roda</h3>
+                    <h5>Automóveis e peças</h5>
+                    <p>
+                        textin
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="text-center mt-5">
-            <h4>Locais Oficiais</h4>
-            <a
-                href="https://www.samaejs.com.br/central-do-usuario/pev/"
-                target="_blank" class="btn btn-success m-2">PEV SAMAE
+            <h4>Sites Oficiais - informações extras!</h4>
+            <a href="https://www.samaejs.com.br/central-do-usuario/pev/" target="_blank" class="btn btn-success m-2">PEV SAMAE
             </a>
-            <a
-                href="https://www.samaegaspar.com.br/servicos/residuos-solidos/ecoponto"
-                target="_blank" class="btn btn-primary m-2">Ecoponto
+            <a href="https://www.samaegaspar.com.br/servicos/residuos-solidos/ecoponto" target="_blank" class="btn btn-primary m-2">Ecoponto
             </a>
-            <a
-                href="https://www.ima.sc.gov.br/index.php/qualidade-ambiental/residuos-solidos/programa-penso-logo-destino"
-                target="_blank" class="btn btn-dark m-2">Programa Penso, Logo Destino
+            <a href="https://www.ima.sc.gov.br/index.php/qualidade-ambiental/residuos-solidos/programa-penso-logo-destino" target="_blank" class="btn btn-dark m-2">Programa Penso, Logo Destino
             </a>
         </div>
     </section>
