@@ -143,7 +143,7 @@
         <div class="row mt-4">
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h3>emoji oleo</h3>
+                    <h3>🧴</h3>
                     <h5>Óleo usado</h5>
                     <p>
                         textin
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h3>sofazinho aqui</h3>
+                    <h3>🛏️</h3>
                     <h5>Móveis</h5>
                     <p>
                         textin
@@ -163,8 +163,17 @@
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h3>carrinho roda</h3>
+                    <h3>🚗</h3>
                     <h5>Automóveis e peças</h5>
+                    <p>
+                        textin
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>💊</h3>
+                    <h5>Remédio</h5>
                     <p>
                         textin
                     </p>
