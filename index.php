@@ -71,13 +71,18 @@
             </div>
             <div class="col-md-6">
                 <p>
-                    A Reciclagem blabla..........
+                    A <strong>reciclagem</strong> é o processo de transformação de materiais descartados em novos
+                    insumos ou produtos. Ela é um dos pilares fundamentais para diminuir a pressão sobre os recursos
+                    naturais do nosso planeta.
                 </p>
                 <p>
-                    Separar corretamente...........
+                    Separar corretamente os resíduos orgânicos dos recicláveis em casa é o primeiro passo para garantir
+                    que papéis, plásticos, vidros e metais voltem para a cadeia produtiva em vez de lotarem os aterros sanitários.
+                    É importante também lembrar de higienizar corretamente antes de descartá-los para facilitar o processo de reciclagem.
                 </p>
                 <p>
-                    Pequenas atitude contribuem..........
+                    Pequenas atitudes diárias contribuem para a preservação do meio ambiente, geram empregos na indústria da
+                    reciclagem e reduzem drasticamente a poluição do solo e do ar.
                 </p>
             </div>
         </div>
@@ -117,25 +122,29 @@
                     <h3>🔋</h3>
                     <h5>Pilhas</h5>
                     <p>
-                        Procure pontos de coleta específicos.
+                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
+                        supermercados ou agências bancárias que possuam coletores específicos. Podem ser
+                        levadas ao Angeloni, Cooper, PEV.
                     </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
                     <h3>💻</h3>
-                    <h5>Eletrônicos</h5>
+                    <h5>Eletrônicos/eletrodomésticos</h5>
                     <p>
-                        Equipamentos possuem materiais recicláveis.
+                        Computadores, eletrônicos, celulares e eletrodomésticos possuem peças valiosas que podem ser reaproveitadas.
+                        Podem ser levados ao PEV, e nos parceiros da Recicla CDL.
                     </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h3>📱</h3>
-                    <h5>Celulares</h5>
+                    <h3>emoji de plastico</h3>
+                    <h5>Tampinhas, esponja e lacres</h5>
                     <p>
-                        Nunca descarte no lixo comum.
+                        Existem alguns pontos de coleta para tampinhas de garrafa plática, lacres de
+                        latinha e esponjas usadas que inclusive viram coisas novas. Podem ser levados no Restaurante Mãejerona.
                     </p>
                 </div>
             </div>
@@ -146,7 +155,9 @@
                     <h3>🧴</h3>
                     <h5>Óleo usado</h5>
                     <p>
-                        textin
+                        Armazene o óleo usado em garrafas PET. Ele pode ser transformado em sabão ou biodiesel,
+                        evitando o entupimento de redes de esgoto. Pode ser colocado ao lado do saco verde no
+                        dia de coleta do reciclado, ser entregue no PEV.
                     </p>
                 </div>
             </div>
@@ -155,18 +166,40 @@
                     <h3>🛏️</h3>
                     <h5>Móveis</h5>
                     <p>
-                        textin
+                        Sofás, camas, colchões e móveis velhos não devem ser abandonados em vias públicas.
+                        Devem ser encaminhados diretamente ao PEV.
                     </p>
-                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
-                    </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
                     <h3>🚗</h3>
-                    <h5>Automóveis e peças</h5>
+                    <h5>Pneu</h5>
                     <p>
-                        textin
+                        Pneus podem ser levados também ao PEV.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>emoji de vidro</h3>
+                    <h5>Vidros</h5>
+                    <p>
+                        Garrafas, potes, frascos, copos, espelhos, cristais devem ser entregues com cuidado
+                        bem embalados com papelão/caixas e com avisos de cuidado. Podem ser colocados juntamente
+                        da coleta do saco verde, entregues ao PEV.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h3>emoji de tinta</h3>
+                    <h5>Tóxicos</h5>
+                    <p>
+                        Produtos como tinta, thinner, óleo de carro, devem ser levados novamente ao local onde o produto foi
+                        comprado - como posto de gasolina ou loja de tintas, que será encaminhado para descarte correto.
                     </p>
                 </div>
             </div>
@@ -175,8 +208,99 @@
                     <h3>💊</h3>
                     <h5>Remédio</h5>
                     <p>
-                        textin
+                        Medicamentos impróprios para consumo e suas cartelas (blisters) devem
+                        ser descartados em coletores especiais de farmácias e postos de saúde cadastrados.
                     </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="descarte" class="container mt-5">
+        <h2 class="text-center">Endereços para levar</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>PEV</h5>
+                    <p>
+                        Com atendimento de segunda a sexta das 8h às 18h e aos sábados das 8h às 12h.
+                    </p>
+                    <a href="https://share.google/0zjkbLyvdLLoSxtSQ" target="_blank" class="btn btn-success m-2">PEV - Vila Lenzi
+                    </a>
+                    <a href="https://share.google/n9fhTi1BOFhm8nfex" target="_blank" class="btn btn-success m-2">PEV - Ilha da Figueira
+                    </a>
+                    <a href="https://share.google/VKCeqzgMA7QtPzURl" target="_blank" class="btn btn-success m-2">PEV - Nereu Ramos
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Cooper supermercado</h5>
+                    <p>
+                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
+                        supermercados ou agências bancárias que possuam coletores específicos.
+                    </p>
+                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Farmácias</h5>
+                    <p>
+                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
+                        supermercados ou agências bancárias que possuam coletores específicos.
+                    </p>
+                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Restaurantes</h5>
+                    <p>
+                        Verifique o horário de atendimento clicando no link abaixo dos endereços!
+                    </p>
+                    <a href="https://share.google/yjXC80MLTI2dNB9tS" target="_blank" class="btn btn-success m-2">Restaurante Mãejerona
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Supermercados</h5>
+                    <p>
+                        Verifique o horário de atendimento clicando no link abaixo dos endereços!
+                    </p>
+                    <a href="" target="_blank" class="btn btn-success m-2">Angeloni
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <h5>Recicla CDL</h5>
+                    <p>
+                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
+                        supermercados ou agências bancárias que possuam coletores específicos.
+                    </p>
+                    <a href="" target="_blank" class="btn btn-success m-2">Católica SC
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">Sede da CDL/CEJAS
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">IFSC - Centro
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">Lecimar
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">Sipar
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">Unisociesc
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">WEG I
+                    </a>
+                    <a href="" target="_blank" class="btn btn-success m-2">WEG II
+                    </a>
                 </div>
             </div>
         </div>
