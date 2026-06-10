@@ -252,8 +252,9 @@
                         Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
                         supermercados ou agências bancárias que possuam coletores específicos.
                     </p>
-                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
-                    </a>
+                    <a href="https://share.google/dQStPDDuffIzXmrsf" target="_blank" class="btn btn-success m-2">Droga Raia Centro </a>
+                    <a href="https://share.google/7Sm26r0MeHMLlQUnH" target="_blank" class="btn btn-success m-2">Droga Raia Vila Lenzi</a>
+                    <a href="https://share.google/gaqaTgzKjOb7PHt8v" target="_blank" class="btn btn-success m-2">Panvel Centro </a>
                 </div>
             </div>
         </div>
@@ -274,32 +275,38 @@
                     <p>
                         Verifique o horário de atendimento clicando no link abaixo dos endereços!
                     </p>
-                    <a href="" target="_blank" class="btn btn-success m-2">Angeloni
+                    <a href="https://maps.app.goo.gl/oBH5dvjAN8DecAK96" target="_blank" class="btn btn-success m-2">Angeloni
                     </a>
+                    <a href="https://share.google/KImZ1wFeP2Yji92aS" target="_blank" class="btn btn-success m-2">Cooper Vila Nova
+                    </a>
+                    <a href="https://share.google/UpiJVkc9nQI9B9HlL" target="_blank" class="btn btn-success m-2">Cooper Água verde
+                    </a>
+                    <a href="https://share.google/zvjDFkOgFdfceIAvi" target="_blank" class="btn btn-success m-2">Cooper Barra
+                    </a>
+                    <a href="https://share.google/J0WtMHPua8NVsjWoF" target="_blank" class="btn btn-success m-2">Cooper Rau
+                    </a>
+
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
                     <h5>Recicla CDL</h5>
                     <p>
-                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
-                        supermercados ou agências bancárias que possuam coletores específicos.
+                        Verifique o horário de atendimento clicando no link abaixo dos endereços!
                     </p>
-                    <a href="" target="_blank" class="btn btn-success m-2">Católica SC
+                    <a href="https://share.google/zccPLvs9pvZ4AMTpq" target="_blank" class="btn btn-success m-2">Católica SC
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">Sede da CDL/CEJAS
+                    <a href="https://share.google/A2vLhLPItbTA6rdVy" target="_blank" class="btn btn-success m-2">Sede da CDL/CEJAS
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">IFSC - Centro
+                    <a href="https://share.google/NvRjoWNN6KJqDZdrb" target="_blank" class="btn btn-success m-2">IFSC - Centro
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">Lecimar
+                    <a href="https://share.google/v8eN3iHYwjXiXpk67" target="_blank" class="btn btn-success m-2">Lecimar
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">Sipar
+                    <a href="https://maps.app.goo.gl/BJBcvCpvn4DB8Jug7" target="_blank" class="btn btn-success m-2">Unisociesc
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">Unisociesc
+                    <a href="https://maps.app.goo.gl/rKdCgU1QAtwfNGNbA" target="_blank" class="btn btn-success m-2">WEG I
                     </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">WEG I
-                    </a>
-                    <a href="" target="_blank" class="btn btn-success m-2">WEG II
+                    <a href="https://maps.app.goo.gl/HMab2SupS7vmZUob8" target="_blank" class="btn btn-success m-2">WEG II
                     </a>
                 </div>
             </div>
