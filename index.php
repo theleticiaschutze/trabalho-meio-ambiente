@@ -4,27 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EcoCycle - Economia Circular</title>
+    <title>EcoVida - Economia Circular</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body>
     <!-- MENU -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
         <div class="container">
-            <a class="navbar-brand">
-                🌎 EcoVida
-            </a>
+            <a class="navbar-brand" href="#topo"><i class="bi bi-globe-americas"></i> EcoVida</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#economia">
-                            Economia Circular
-                        </a>
+                        <a class="nav-link" href="#economia">Economia Circular</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#reciclagem">Reciclagem</a>
@@ -35,39 +34,63 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#descarte">Descarte</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#enderecos">Endereços</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- BANNER -->
     <div class="container-fluid p-0">
-        <img src="imagem/natureza.jpg" class="img-fluid w-100 banner">
+        <img src="imagem/riobonito.jpg" class="img-fluid w-100 banner">
     </div>
     <header class="container text-center mt-5">
-        <h1>Descarte Correto:Transformando lixo em oportunidade</h1>
+        <h1>Descarte Correto: Transformando lixo em oportunidade</h1>
         <p class="lead">
             Aprenda sobre economia circular e descubra como pequenas atitudes ajudam o planeta.
         </p>
     </header>
     <section id="economia" class="container mt-5">
-        <h2>O que é Economia Circular?</h2>
-        <p>
-            Economia circular busca reduzir desperdícios,
-            reutilizar materiais e manter recursos em uso pelo maior tempo possível.
+
+        <h2 class="text-center">
+            O que é Economia Circular?
+        </h2>
+        <p class="text-center text-muted">
+            Um modelo sustentável para reduzir desperdícios e preservar recursos naturais.
         </p>
-        <p>Economia Linear:
-            Extrair → Produzir → Consumir → Descartar
-        </p>
-        <p>
-            Economia Circular:
-            Reduzir → Reutilizar → Reciclar
-        </p>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <p>
+                    Economia circular busca reduzir desperdícios,
+                    reutilizar materiais e manter recursos em uso
+                    pelo maior tempo possível.
+                </p>
+                <div class="row mt-4 align-items-stretch">
+                    <div class="col-md-6">
+                        <div class="card p-3 text-center">
+                            <h5>Economia Linear</h5>
+                            <p>Extrair → Produzir → Consumir → Descartar</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3 text-center">
+                            <h5>Economia Circular</h5>
+                            <p>Reduzir → Reutilizar → Reciclar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imagem/reciclar.jpg" class="img-fluid rounded shadow">
+            </div>
+        </div>
     </section>
     <section id="reciclagem" class="container mt-5">
         <h2 class="text-center">O que é reciclagem</h2>
         <div class="row align-items-center mt-4">
             <div class="col-md-6">
-                <img src="imagem/reciclagem.jpg" class="img-fluid rounded shadow">
+                <img src="imagem/separacao.jpg" class="img-fluid rounded shadow imagem-reciclagem">
             </div>
             <div class="col-md-6">
                 <p>
@@ -89,10 +112,10 @@
     </section>
     <section id="impactos" class="container mt-5">
         <h2 class="text-center">Consequências do descarte incorreto</h2>
-        <div class="row mt-4">
+        <div class="row mt-4 justify-content-center align-items-stretch">
             <div class="col-md-6">
                 <div class="card">
-                    <img src="imagem/lixo_oceano.jpg" class="card-img-top">
+                    <img src="imagem/tartaruga.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5>Oceanos Poluídos</h5>
                         <p>
@@ -103,7 +126,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <img src="imagem/rio_poluido.jpg" class="card-img-top">
+                    <img src="imagem/rio.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5>Rios Contaminados</h5>
                         <p>
@@ -116,113 +139,125 @@
     </section>
     <section id="descarte" class="container mt-5">
         <h2 class="text-center">Onde descartar?</h2>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>🔋</h3>
+
+        <!-- produtos -->
+        <div class="row mt-4 g-4">
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-battery-charging icone-descarte"></i>
                     <h5>Pilhas</h5>
                     <p>
                         Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
-                        supermercados ou agências bancárias que possuam coletores específicos. Podem ser
-                        levadas ao Angeloni, Cooper, PEV.
+                        supermercados ou agências bancárias que possuam coletores específicos.
+                        Podem ser levadas ao Angeloni, Cooper, PEV.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>💻</h3>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-laptop icone-descarte"></i>
                     <h5>Eletrônicos/eletrodomésticos</h5>
                     <p>
-                        Computadores, eletrônicos, celulares e eletrodomésticos possuem peças valiosas que podem ser reaproveitadas.
-                        Podem ser levados ao PEV, e nos parceiros da Recicla CDL.
+                        Computadores, celulares e eletrodomésticos possuem peças valiosas que podem ser reaproveitadas.
+                        Podem ser levados ao PEV e parceiros da Recicla CDL.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>emoji de plastico</h3>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-recycle icone-descarte"></i>
                     <h5>Tampinhas, esponja e lacres</h5>
                     <p>
-                        Existem alguns pontos de coleta para tampinhas de garrafa plática, lacres de
-                        latinha e esponjas usadas que inclusive viram coisas novas. Podem ser levados no Restaurante Mãejerona.
+                        Pontos de coleta para tampinhas de garrafa plástica, lacres de latinha e esponjas usadas,
+                        que podem virar novos produtos. Podem ser levados ao Restaurante Mãejerona.
                     </p>
                 </div>
             </div>
+
         </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>🧴</h3>
+        <div class="row mt-4 g-4">
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-droplet-fill icone-descarte"></i>
                     <h5>Óleo usado</h5>
                     <p>
-                        Armazene o óleo usado em garrafas PET. Ele pode ser transformado em sabão ou biodiesel,
-                        evitando o entupimento de redes de esgoto. Pode ser colocado ao lado do saco verde no
-                        dia de coleta do reciclado, ser entregue no PEV.
+                        Armazene em garrafa PET. Pode virar sabão ou biodiesel.
+                        Entregar no PEV ou junto da coleta seletiva.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>🛏️</h3>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-house-fill icone-descarte"></i>
                     <h5>Móveis</h5>
                     <p>
-                        Sofás, camas, colchões e móveis velhos não devem ser abandonados em vias públicas.
-                        Devem ser encaminhados diretamente ao PEV.
+                        Sofás, camas e colchões devem ser levados ao PEV,
+                        nunca descartados em vias públicas.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>🚗</h3>
-                    <h5>Pneu</h5>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-car-front-fill icone-descarte"></i>
+                    <h5>Pneus</h5>
                     <p>
-                        Pneus podem ser levados também ao PEV.
+                        Pneus devem ser entregues em pontos de coleta ou PEV.
                     </p>
                 </div>
             </div>
+
         </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>emoji de vidro</h3>
+        <div class="row mt-4 g-4">
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-cup-straw icone-descarte"></i>
                     <h5>Vidros</h5>
                     <p>
-                        Garrafas, potes, frascos, copos, espelhos, cristais devem ser entregues com cuidado
-                        bem embalados com papelão/caixas e com avisos de cuidado. Podem ser colocados juntamente
-                        da coleta do saco verde, entregues ao PEV.
+                        Garrafas, potes e copos devem ser embalados com cuidado
+                        e entregues no PEV ou coleta seletiva.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>emoji de tinta</h3>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-exclamation-triangle-fill icone-descarte"></i>
                     <h5>Tóxicos</h5>
                     <p>
-                        Produtos como tinta, thinner, óleo de carro, devem ser levados novamente ao local onde o produto foi
-                        comprado - como posto de gasolina ou loja de tintas, que será encaminhado para descarte correto.
+                        Tintas, thinner e óleo de carro devem ser devolvidos
+                        ao ponto de venda ou postos autorizados.
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h3>💊</h3>
-                    <h5>Remédio</h5>
+
+            <div class="col-md-4 d-flex">
+                <div class="card p-3 text-center h-100 w-100">
+                    <i class="bi bi-capsule icone-descarte"></i>
+                    <h5>Medicamentos</h5>
                     <p>
-                        Medicamentos impróprios para consumo e suas cartelas (blisters) devem
-                        ser descartados em coletores especiais de farmácias e postos de saúde cadastrados.
+                        Descartar em farmácias ou postos de saúde com coleta apropriada.
                     </p>
                 </div>
             </div>
+
         </div>
-
-
     </section>
-    <section id="descarte" class="container mt-5">
+    <section id="enderecos" class="container mt-5">
         <h2 class="text-center">Endereços para levar</h2>
-        <div class="row mt-4">
+        <div class="row mt-4 justify-content-center g-4">
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h5>PEV</h5>
+                    <h5>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        PEV
+                    </h5>
                     <p>
                         Com atendimento de segunda a sexta das 8h às 18h e aos sábados das 8h às 12h.
                     </p>
@@ -236,32 +271,24 @@
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h5>Cooper supermercado</h5>
+                    <h5>
+                        <i class="bi bi-capsule"></i>
+                        Farmácias
+                    </h5>
                     <p>
-                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
-                        supermercados ou agências bancárias que possuam coletores específicos.
-                    </p>
-                    <a href="colocar aqui endereço do google maps daquele lugar" target="_blank" class="btn btn-success m-2">PEV - lugar tal
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3 text-center">
-                    <h5>Farmácias</h5>
-                    <p>
-                        Por conterem metais pesados, devem ser entregues em postos de coleta comerciais,
-                        supermercados ou agências bancárias que possuam coletores específicos.
+                        Locais onde principalmente podem ser descartados embalagens e remédios, vencidos ou não. Verifique os locais e horários
                     </p>
                     <a href="https://share.google/dQStPDDuffIzXmrsf" target="_blank" class="btn btn-success m-2">Droga Raia Centro </a>
                     <a href="https://share.google/7Sm26r0MeHMLlQUnH" target="_blank" class="btn btn-success m-2">Droga Raia Vila Lenzi</a>
                     <a href="https://share.google/gaqaTgzKjOb7PHt8v" target="_blank" class="btn btn-success m-2">Panvel Centro </a>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h5>Restaurantes</h5>
+                    <h5>
+                        <i class="bi bi-cup-hot-fill"></i>
+                        Restaurante
+                    </h5>
                     <p>
                         Verifique o horário de atendimento clicando no link abaixo dos endereços!
                     </p>
@@ -269,11 +296,17 @@
                     </a>
                 </div>
             </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center g-4">
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h5>Supermercados</h5>
+                    <h5>
+                        <i class="bi bi-shop"></i>
+                        Supermercados
+                    </h5>
                     <p>
-                        Verifique o horário de atendimento clicando no link abaixo dos endereços!
+                        Alguns supermercados disponibilizam pontos de coleta para pilhas, baterias e outros materiais recicláveis. Consulte os endereços abaixo.
                     </p>
                     <a href="https://maps.app.goo.gl/oBH5dvjAN8DecAK96" target="_blank" class="btn btn-success m-2">Angeloni
                     </a>
@@ -290,7 +323,10 @@
             </div>
             <div class="col-md-4">
                 <div class="card p-3 text-center">
-                    <h5>Recicla CDL</h5>
+                    <h5>
+                        <i class="bi bi-recycle"></i>
+                        Recicla CDL
+                    </h5>
                     <p>
                         Verifique o horário de atendimento clicando no link abaixo dos endereços!
                     </p>
@@ -321,13 +357,22 @@
             </a>
         </div>
     </section>
-    <footer class="bg-dark text-light text-center p-4 mt-5">
-        Disciplina:
-        Meio Ambiente, Trabalho e Sociedade
-        <br>
-        IFSC
-        <br>
-        Projeto EcoCycle
+    <footer class="footer-ecovida text-center">
+        <h4>🌎 EcoVida</h4>
+        <p>
+            Projeto desenvolvido para a disciplina
+            <strong>Meio Ambiente, Trabalho e Sociedade</strong>
+        </p>
+        <p>
+            Instituto Federal de Santa Catarina - IFSC
+        </p>
+        <p>
+            Desenvolvido por: Dinea Gisele Kostetzer Bruch e Letícia Schütze.
+        </p>
+        <hr>
+        <small>
+            Promovendo a conscientização ambiental por meio da economia circular e do descarte correto de resíduos.
+        </small>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
