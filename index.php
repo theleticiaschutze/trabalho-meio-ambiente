@@ -59,22 +59,22 @@
         <p class="text-center text-muted">
             Um modelo sustentável para reduzir desperdícios e preservar recursos naturais.
         </p>
-        <div class="row align-items-center mt-4">
+        <div class="row align-items-center mt-4 g-4">
             <div class="col-md-6">
                 <p>
                     Economia circular busca reduzir desperdícios,
                     reutilizar materiais e manter recursos em uso
                     pelo maior tempo possível.
                 </p>
-                <div class="row mt-4 align-items-stretch">
+                <div class="row mt-4 align-items-stretch g-4">
                     <div class="col-md-6">
-                        <div class="card p-3 text-center">
+                        <div class="card p-3 text-center h-100">
                             <h5>Economia Linear</h5>
                             <p>Extrair → Produzir → Consumir → Descartar</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card p-3 text-center">
+                        <div class="card p-3 text-center h-100">
                             <h5>Economia Circular</h5>
                             <p>Reduzir → Reutilizar → Reciclar</p>
                         </div>
@@ -112,9 +112,9 @@
     </section>
     <section id="impactos" class="container mt-5">
         <h2 class="text-center">Consequências do descarte incorreto</h2>
-        <div class="row mt-4 justify-content-center align-items-stretch">
+        <div class="row mt-4 justify-content-center align-items-stretch g-4">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card h-100">
                     <img src="imagem/tartaruga.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5>Oceanos Poluídos</h5>
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class="card h-100">
                     <img src="imagem/rio.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5>Rios Contaminados</h5>
